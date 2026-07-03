@@ -13,13 +13,6 @@ A simple, clean, and efficient email generator that creates **100 valid emails a
 
 This project uses a simple Flask web app that generates a batch of 100 valid emails each time the app is run. The emails are generated using a basic template and random data. **[Educational Purpose Only]**
 
-## Credits
-
-- **Developer:** Rexden
-- **Language:** Python
-- **Framework:** Flask
-- **License:** MIT License
-
 ## How to Run
 
 1. Clone the repository:
@@ -55,6 +48,13 @@ You can customize the email template in the `utils/email_generator.py` file. You
 - Export to CSV or TXT
 - Email sending (with `smtplib`)
 - Template switching
+
+## Credits
+
+- **Developer:** Rexden
+- **Language:** Python
+- **Framework:** Flask
+- **License:** MIT License
 
 ## 📌 License
 
