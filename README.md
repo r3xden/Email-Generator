@@ -67,8 +67,8 @@ Under MIT.
 
 ### Summary Table for Quick Reference
 
-| Component | Role | Key | Functionality | Complexity Level |
-|-----------|------|-----|---------------|------------------|
+| Component | Role Key | Functionality | Complexity Level |
+|-----------|----------|---------------|------------------|
 | main.py | Runner/UI	| System detection, Output styling (Colorama)	| Medium |
 | generator_core.py | Orchestrator | Manages and calls strategies; Collision control | High |
 | email_strategies.py | Engine | Stores name pools & implements diverse generation formulas	| Very High |
