@@ -13,7 +13,7 @@ class EmailStrategies:
         }
 
         self.domain_pools = {
-            "corporate": [("gmail.com", ".com"), ("techsolutions", ".org")],
+            "corporate": [("gmail.com"), ("techsolutions", ".org")],
             "personal": [("mailservice", ".net"), ("webhost", ".info")]
         }
 
@@ -29,7 +29,7 @@ class EmailStrategies:
 
     def generate_initial_based_format(self, first: str, last: str) -> str:
         """
-        Strategy 2: Initial-heavy format (e.g., a.smith@company.com or asmith@company.com).
+        Strategy 2: Initial-heavy format (e.g., a.smith@company.com or asmith@gmail.com).
         """
         initial = first[0].lower()
         domain, tld = random.choice(self.domain_pools['corporate'])
