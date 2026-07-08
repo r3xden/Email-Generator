@@ -13,7 +13,7 @@ class EmailStrategies:
         }
 
         self.domain_pools = {
-            "corporate": [("gmail.com"), ("techsolutions", ".org")],
+            "corporate": [("gmail", ".com",), ("techsolutions", ".org")],
             "personal": [("mailservice", ".net"), ("webhost", ".info")]
         }
 
