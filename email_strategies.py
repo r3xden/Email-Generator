@@ -13,8 +13,8 @@ class EmailStrategies:
         }
 
         self.domain_pools = {
-            "corporate": [("gmail", ".com",), ("techsolutions", ".org")],
-            "personal": [("mailservice", ".net"), ("webhost", ".info")]
+            "corporate": [("gmail", "com",), ("outlook", "com"), ("yahoo", "com")],
+            "personal": [("mailservice", "net"), ("webhost", "info")]
         }
 
     def generate_professional_format(self, first: str, last: str) -> str:
